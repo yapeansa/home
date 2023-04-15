@@ -1,7 +1,7 @@
 .cabecalho {
     display: flex;
     height: 100vh;
-    background: url('../assets/bg.jpg') center / cover no-repeat fixed;
+    background: $preto url('../assets/bg.jpg') center / cover no-repeat fixed;
     .left {
         flex-basis: 50%;
         display: flex;
