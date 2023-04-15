@@ -14,8 +14,9 @@
         .open__button {
             display: none;
             position: absolute;
-            right: 1rem;
             top: 1rem;
+            right: 1rem;
+
         }
         .logo {
             width: 12.5rem;
@@ -155,7 +156,8 @@
                 align-items: center;
                 position: absolute;
                 top: 1rem;
-                right: 1rem;
+                left: 50%;
+                margin-left: -2.25rem;
                 border: 2px solid $roxo;
                 width: 4.5rem;
                 height: 4.5rem;

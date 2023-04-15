@@ -140,7 +140,7 @@ html .fade_out, body .fade_out {
 .cabecalho {
   display: flex;
   height: 100vh;
-  background: url("../assets/bg.jpg") center/cover no-repeat fixed;
+  background: #000000 url("../assets/bg.jpg") center/cover no-repeat fixed;
 }
 .cabecalho .left {
   flex-basis: 50%;
@@ -155,8 +155,8 @@ html .fade_out, body .fade_out {
 .cabecalho .left .open__button {
   display: none;
   position: absolute;
-  right: 1rem;
   top: 1rem;
+  right: 1rem;
 }
 .cabecalho .left .logo {
   width: 12.5rem;
@@ -291,7 +291,8 @@ html .fade_out, body .fade_out {
     align-items: center;
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    left: 50%;
+    margin-left: -2.25rem;
     border: 2px solid #9400D3;
     width: 4.5rem;
     height: 4.5rem;
