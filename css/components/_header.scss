@@ -14,7 +14,7 @@
         .open__button {
             display: none;
             position: absolute;
-            top: 1rem;
+            top: 2rem;
             right: 1rem;
 
         }
@@ -117,6 +117,7 @@
             height: 100vh;
             text-align: center;
             padding: 0 1rem;
+            row-gap: 7rem;
             .open__button {
                 display: flex;
                 flex-direction: column;
@@ -125,7 +126,7 @@
                 align-items: center;
                 width: 4.5rem;
                 height: 4.5rem;
-                border: 2px solid $roxo;
+                border: 2px solid $amarelo;
                 .open__line {
                     width: 55%;
                     height: 3px;
@@ -149,16 +150,17 @@
             padding: 0;
             width: 100%;
             display: none;
+            gap: 5rem;
             .close__button {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 position: absolute;
-                top: 1rem;
+                top: 2rem;
                 left: 50%;
                 margin-left: -2.25rem;
-                border: 2px solid $roxo;
+                border: 2px solid $amarelo;
                 width: 4.5rem;
                 height: 4.5rem;
                 .close__line {
@@ -179,9 +181,12 @@
                     .menu__principal_item {
                         justify-content: flex-start;
                         column-gap: 1rem;
+                        &:before {
+                            font-size: 3rem;
+                        }
                     }
                     .menu__principal_link {
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                     }
                 }
             }

@@ -155,7 +155,7 @@ html .fade_out, body .fade_out {
 .cabecalho .left .open__button {
   display: none;
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   right: 1rem;
 }
 .cabecalho .left .logo {
@@ -251,6 +251,7 @@ html .fade_out, body .fade_out {
     height: 100vh;
     text-align: center;
     padding: 0 1rem;
+    row-gap: 7rem;
   }
   .cabecalho .left .open__button {
     display: flex;
@@ -260,7 +261,7 @@ html .fade_out, body .fade_out {
     align-items: center;
     width: 4.5rem;
     height: 4.5rem;
-    border: 2px solid #9400D3;
+    border: 2px solid #FFC719;
   }
   .cabecalho .left .open__button .open__line {
     width: 55%;
@@ -283,6 +284,7 @@ html .fade_out, body .fade_out {
     padding: 0;
     width: 100%;
     display: none;
+    gap: 5rem;
   }
   .cabecalho .right .close__button {
     display: flex;
@@ -290,10 +292,10 @@ html .fade_out, body .fade_out {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 1rem;
+    top: 2rem;
     left: 50%;
     margin-left: -2.25rem;
-    border: 2px solid #9400D3;
+    border: 2px solid #FFC719;
     width: 4.5rem;
     height: 4.5rem;
   }
@@ -314,8 +316,11 @@ html .fade_out, body .fade_out {
     -moz-column-gap: 1rem;
          column-gap: 1rem;
   }
+  .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_item:before {
+    font-size: 3rem;
+  }
   .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_link {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .cabecalho .show {
     display: flex;
