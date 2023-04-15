@@ -1,0 +1,83 @@
+.intro {
+    .intro__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        .intro__image {
+            max-width: 40%;
+        }
+        .intro__content {
+            display: flex;
+            flex-direction: column;
+            gap: 8rem;
+            align-items: center;
+            padding-right: 8rem;
+            .intro__title {
+                font-family: $roboto-bold;
+                font-size: 3.3rem;
+                position: relative;
+                margin-bottom: 2rem;
+                &:before {
+                    @include titulo-understyle;
+                    background-color: $preto;
+                }
+            }
+            .intro__text {
+                flex-basis: 50%;
+                font-size: 1.2rem;
+                text-align: center;
+                line-height: 1.5;
+            }
+            .tree {
+                display: inline-block;
+                font-size: 2.2rem;
+                text-align: center;
+                text-decoration: none;
+                color: $preto;
+                transition: all .5s ease;
+                padding: .5rem 0;
+                position: relative;
+                &:before {
+                    content: '@';
+                    font-size: 3rem;
+                    color: $roxo;
+                    animation-name: pisca-pisca;
+                    animation-duration: 1.6s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: ease-in-out;
+                }
+                .efeito__linha {
+                    @include efeito-linha;
+                    width: 0;
+                }
+                &:hover {
+                    .efeito__linha {
+                        width: 43%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .intro {
+        padding: 3rem 1rem;
+        .intro__container {
+            flex-direction: column;
+            height: auto;
+            .intro__image {
+                max-width: 100%;
+            }
+            .intro__content {
+                padding: 0;
+                gap: 3rem;
+                margin-top: 3rem;
+                .intro__title {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+}

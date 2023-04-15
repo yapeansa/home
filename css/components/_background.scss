@@ -1,0 +1,97 @@
+.formacao {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    .formacao__title {
+        font-family: $roboto-bold;
+        font-size: 3.3rem;
+        position: relative;
+        &:before {
+            @include titulo-understyle;
+            background-color: $preto;
+        }
+    }
+    .formacao__content {
+        width: 100%;
+        display: flex;
+        .formacao__image__container {
+            flex-basis: 50%;
+            align-self: center;
+            .formacao__image {
+                max-width: 76%;
+            }
+        }
+        .formacao__text {
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 3rem;
+            text-align: right;
+            .course {
+                padding: 0 8rem;
+                .institution__title {
+                    font-family: $roboto-bold;
+                    font-size: 1.3rem;
+                }
+                .course__title {
+                    font-family: $roboto-bold;
+                    font-size: 2rem;
+                    margin: 1rem 0;
+                    color: $roxo;
+                }
+                .course__description {
+                    font-size: 1.1rem;
+                    line-height: 1.5;
+                }
+                .tcc__link {
+                    display: inline-block;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: $preto;
+                    padding: .5rem 0;
+                    font-size: 1.25rem;
+                    margin-top: 1rem;
+                    position: relative;
+                    .efeito__linha {
+                        @include efeito-linha;
+                        width: 30%;
+                    }
+                    &:hover {
+                        .efeito__linha {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .formacao {
+        padding: 4rem 1rem;
+        height: auto;
+        .formacao__title {
+            font-size: 2.5rem;
+        }
+        .formacao__content {
+            flex-direction: column;
+            gap: 4rem;
+            .formacao__image__container {
+                .formacao__image {
+                    max-width: 100%;
+                }
+            }
+            .formacao__text {
+                text-align: center;
+                .course {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

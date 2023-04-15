@@ -1,0 +1,30 @@
+@keyframes textoflutuante {
+    0% { top: -2rem; }
+    50% { top: 0; }
+    100% { top: -2rem; }
+}
+@keyframes pisca-pisca {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+@keyframes rotacao {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
+@keyframes slideIn {
+    from { left: -100%; }
+    to { left: 0; }
+}
+@keyframes slideOut {
+    from { left: 0; }
+    to { left: -100%; }
+}

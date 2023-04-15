@@ -1,0 +1,16 @@
+@font-face {
+    src: url('../fonts/Roboto-Thin.ttf');
+    font-family: 'roboto-thin';
+}
+@font-face {
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-family: 'roboto-regular';
+}
+@font-face {
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-family: 'roboto-bold';
+}
+
+$roboto-regular: 'roboto-regular';
+$roboto-thin: 'roboto-thin';
+$roboto-bold: 'roboto-bold';

@@ -1,0 +1,96 @@
+.sobre {
+    background-color: $preto;
+    color: $branco;
+    padding: 0 8rem;
+    .about__wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100vh;
+        .about__title {
+            font-family: $roboto-bold;
+            font-size: 3.4rem;
+            margin-bottom: 10rem;
+            position: relative;
+            &:before {
+                @include titulo-understyle;
+                background-color: $amarelo;
+            }
+        }
+        .about__container {
+            display: flex;
+            align-items: center;
+            .about__content {
+                flex-basis: 65%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .about__text {
+                    font-size: 1.25rem;
+                    line-height: 1.5;
+                    text-align: justify;
+                    padding-right: 5rem;
+                    .institution__link {
+                        color: $branco;
+                        border: 2px solid $amarelo;
+                        text-decoration: none;
+                        display: inline-block;
+                        padding: 0 .3rem;
+                        transition: all .5s ease;
+                        &:hover {
+                            background-color: $amarelo;
+                            color: $preto;
+                            border-color: $preto;
+                        }
+                    }
+                }
+            }
+            .about__image {
+                flex-basis: 35%;
+                display: flex;
+                justify-content: flex-end;
+                .me {
+                    max-width: 25rem;
+                    border-radius: 100%;
+                    border: 3px solid $roxo;
+                    padding: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sobre {
+        padding: 4rem 1rem;
+        width: 100%;
+        .about__wrap {
+            height: auto;
+            .about__title {
+                margin-bottom: 5rem;
+                font-size: 2.5rem;
+                align-self: center;
+            }
+            .about__container {
+                flex-direction: column;
+                gap: 3rem;
+                .about__content {
+                    order: 2;
+                    .about__text {
+                        padding: 0;
+                        text-align: center;
+                    }
+                }
+                .about__image {
+                    order: 1;
+                    display: block;
+                    text-align: center;
+                    .me {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}

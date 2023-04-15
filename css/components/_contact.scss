@@ -1,0 +1,143 @@
+.contato {
+    height: 100vh;
+    background-color: $preto;
+    color: $branco;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    .contact__title {
+        font-family: $roboto-bold;
+        font-size: 3.3rem;
+        position: relative;
+        &:before {
+            @include titulo-understyle;
+            background-color: $amarelo;
+        }
+    }
+    .contact__intro__text {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    .contact__container {
+        width: 100%;
+        display: flex;
+        .contact__info {
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 3rem;
+            .contact__text {
+                font-size: 1.25rem;
+                line-height: 1.5;
+            }
+            .mail {
+                text-decoration: none;
+                font-size: 1.3rem;
+                color: $branco;
+                border: 2px solid $roxo;
+                padding: .5rem;
+                transition: all .5s ease;
+                &:hover {
+                    background-color: $roxo;
+                    border-color: $preto;
+                    color: $branco;
+                }
+            }
+        }
+        .contact__form {
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .formulario__contato {
+                width: 70%;
+                label {
+                    display: none;
+                }
+                input[type=text], input[type=email], textarea {
+                    display: block;
+                    width: 100%;
+                    border: 3px solid $preto;
+                    background-color: $branco;
+                    margin-bottom: 1.3rem;
+                    color: $preto;
+                    -webkit-text-fill-color: $preto;
+                    font-family: $roboto-regular;
+                    font-size: 1.2rem;
+                    padding: 1rem;
+                    outline: none;
+                    transition: all .5s ease;
+                    &::placeholder {
+                        opacity: 1;
+                    }
+                    &:focus {
+                        background-color: $preto;
+                        border-color: $roxo;
+                        color: $branco;
+                        -webkit-text-fill-color: $branco;
+                    }
+                }
+                textarea {
+                    resize: none;
+                }
+                .buttons__form {
+                    display: flex;
+                    justify-content: center;
+                    gap: 1.3rem;
+                    input[type=reset], input[type=submit] {
+                        background-color: $amarelo;
+                        color: $preto;
+                        padding: 1rem;
+                        border: none;
+                        font-size: 1.3rem;
+                        width: 8rem;
+                        cursor: pointer;
+                        border: 3px solid $preto;
+                        transition: all .5s ease;
+                        &:hover {
+                            background-color: $preto;
+                            border-color: $amarelo;
+                            color: $branco;
+                        }
+                        &:active {
+                            background-color: $amarelo;
+                            color: $preto;
+                            border-color: $preto;
+                            transition: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contato {
+        height: auto;
+        gap: 4rem;
+        text-align: center;
+        padding: 4rem 1rem 5rem;
+        .contact__title {
+            font-size: 2.5rem;
+        }
+        //.contact__intro__text {}
+        .contact__container {
+            flex-direction: column;
+            gap: 3rem;
+            .contact__info {
+                gap: 3rem;
+            }
+            .contact__form {
+                .formulario__contato {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
