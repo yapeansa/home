@@ -126,12 +126,17 @@
         .contact__title {
             font-size: 2.5rem;
         }
-        //.contact__intro__text {}
+        .contact__intro__text {
+            font-size: 1.2rem;
+        }
         .contact__container {
             flex-direction: column;
             gap: 3rem;
             .contact__info {
                 gap: 3rem;
+                .contact__text {
+                    font-size: 1.1rem;
+                }
             }
             .contact__form {
                 .formulario__contato {

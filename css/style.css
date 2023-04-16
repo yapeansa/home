@@ -771,12 +771,18 @@ html .fade_out, body .fade_out {
   .contato .contact__title {
     font-size: 2.5rem;
   }
+  .contato .contact__intro__text {
+    font-size: 1.2rem;
+  }
   .contato .contact__container {
     flex-direction: column;
     gap: 3rem;
   }
   .contato .contact__container .contact__info {
     gap: 3rem;
+  }
+  .contato .contact__container .contact__info .contact__text {
+    font-size: 1.1rem;
   }
   .contato .contact__container .contact__form .formulario__contato {
     width: 100%;
@@ -808,6 +814,7 @@ html .fade_out, body .fade_out {
 
 @media screen and (max-width: 1023px) {
   .rodape .copyright {
-    padding: 0 2rem 5rem;
+    padding: 0 5rem 5rem;
+    font-size: 1.1rem;
   }
 }/*# sourceMappingURL=style.css.map */
