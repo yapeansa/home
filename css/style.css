@@ -474,10 +474,10 @@ html .fade_out, body .fade_out {
 }
 .sobre .about__wrap .about__container .about__content .about__text .institution__link {
   color: #FFFFFF;
-  border: 2px solid #FFC719;
+  border-bottom: 2px solid #FFC719;
   text-decoration: none;
   display: inline-block;
-  padding: 0 0.3rem;
+  padding: 0;
   transition: all 0.5s ease;
 }
 .sobre .about__wrap .about__container .about__content .about__text .institution__link:hover {
