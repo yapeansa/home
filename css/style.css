@@ -242,7 +242,7 @@ html .fade_out, body .fade_out {
   width: 2.5rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
   .cabecalho {
     display: block;
   }
@@ -406,7 +406,7 @@ html .fade_out, body .fade_out {
   width: 43%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
   .intro {
     padding: 3rem 1rem;
   }
@@ -494,7 +494,7 @@ html .fade_out, body .fade_out {
   padding: 1.5rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
   .sobre {
     padding: 4rem 1rem;
     width: 100%;
@@ -608,7 +608,7 @@ html .fade_out, body .fade_out {
   width: 100%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
   .formacao {
     padding: 4rem 1rem;
     height: auto;
@@ -757,7 +757,7 @@ html .fade_out, body .fade_out {
   transition: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
   .contato {
     height: auto;
     gap: 4rem;
@@ -802,7 +802,7 @@ html .fade_out, body .fade_out {
   border-color: #000000;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
   .rodape .copyright {
     padding: 0 2rem 5rem;
   }
