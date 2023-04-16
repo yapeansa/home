@@ -179,8 +179,8 @@
             .menu__principal {
                 .menu__principal_lista {
                     .menu__principal_item {
-                        justify-content: flex-start;
-                        column-gap: 1rem;
+                        justify-content: center;
+                        column-gap: .5rem;
                         &:before {
                             font-size: 3rem;
                         }
