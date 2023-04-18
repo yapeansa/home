@@ -126,7 +126,7 @@
                 align-items: center;
                 width: 4.5rem;
                 height: 4.5rem;
-                border: 2px solid $amarelo;
+                border: 2px solid $roxo;
                 .open__line {
                     width: 55%;
                     height: 3px;
@@ -159,14 +159,14 @@
                 position: absolute;
                 top: 2rem;
                 left: 50%;
-                margin-left: -2.25rem;
-                border: 2px solid $amarelo;
-                width: 4.5rem;
-                height: 4.5rem;
+                margin-left: -2.5rem;
+                border: 2px solid $branco;
+                width: 5rem;
+                height: 5rem;
                 .close__line {
                     width: 60%;
                     height: 3px;
-                    background-color: $branco;
+                    background-color: #EE4B2B;
                     position: absolute;
                     &:first-child {
                         transform: rotate(45deg);
@@ -186,7 +186,7 @@
                         }
                     }
                     .menu__principal_link {
-                        font-size: 1.5rem;
+                        font-size: 1.6rem;
                     }
                 }
             }

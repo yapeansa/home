@@ -261,7 +261,7 @@ html .fade_out, body .fade_out {
     align-items: center;
     width: 4.5rem;
     height: 4.5rem;
-    border: 2px solid #FFC719;
+    border: 2px solid #9400D3;
   }
   .cabecalho .left .open__button .open__line {
     width: 55%;
@@ -294,15 +294,15 @@ html .fade_out, body .fade_out {
     position: absolute;
     top: 2rem;
     left: 50%;
-    margin-left: -2.25rem;
-    border: 2px solid #FFC719;
-    width: 4.5rem;
-    height: 4.5rem;
+    margin-left: -2.5rem;
+    border: 2px solid #FFFFFF;
+    width: 5rem;
+    height: 5rem;
   }
   .cabecalho .right .close__button .close__line {
     width: 60%;
     height: 3px;
-    background-color: #FFFFFF;
+    background-color: #EE4B2B;
     position: absolute;
   }
   .cabecalho .right .close__button .close__line:first-child {
@@ -320,7 +320,7 @@ html .fade_out, body .fade_out {
     font-size: 3rem;
   }
   .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_link {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .cabecalho .show {
     display: flex;
@@ -739,8 +739,8 @@ html .fade_out, body .fade_out {
   gap: 1.3rem;
 }
 .contato .contact__container .contact__form .formulario__contato .buttons__form input[type=reset], .contato .contact__container .contact__form .formulario__contato .buttons__form input[type=submit] {
-  background-color: #FFC719;
-  color: #000000;
+  background-color: #9400D3;
+  color: #FFFFFF;
   padding: 1rem;
   border: none;
   font-size: 1.3rem;
