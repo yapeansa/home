@@ -325,12 +325,12 @@ html .fade_out, body .fade_out {
   .cabecalho .show {
     display: flex;
     animation-name: slideIn;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
     animation-timing-function: ease;
   }
   .cabecalho .hide {
     animation-name: slideOut;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
     animation-timing-function: ease;
   }
   .cabecalho .social__networks .social__menu .social__menu_link .social {
@@ -581,7 +581,7 @@ html .fade_out, body .fade_out {
 }
 .formacao .formacao__content .formacao__text .course .course__title {
   font-family: "roboto-bold";
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 1rem 0;
   color: #9400D3;
 }

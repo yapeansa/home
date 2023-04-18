@@ -194,12 +194,12 @@
         .show {
             display: flex;
             animation-name: slideIn;
-            animation-duration: .3s;
+            animation-duration: .5s;
             animation-timing-function: ease;
         }
         .hide {
             animation-name: slideOut;
-            animation-duration: .3s;
+            animation-duration: .5s;
             animation-timing-function: ease;
         }
         .social__networks {
