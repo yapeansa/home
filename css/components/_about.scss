@@ -7,11 +7,11 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        gap: 12vh;
         height: 100vh;
         .about__title {
             font-family: $roboto-bold;
             font-size: 3.4rem;
-            margin-bottom: 10rem;
             position: relative;
             &:before {
                 @include titulo-understyle;
@@ -67,6 +67,7 @@
         width: 100%;
         .about__wrap {
             height: auto;
+            gap: 3vh;
             .about__title {
                 margin-bottom: 5rem;
                 font-size: 2.5rem;

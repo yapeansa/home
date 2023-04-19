@@ -36,7 +36,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-end;
-        gap: 7rem;
+        gap: 10vh;
         background-color: $preto;
         padding-right: 4rem;
         .close__button {
@@ -70,7 +70,7 @@
                     position: relative;
                     z-index: 1000;
                     overflow: hidden;
-                    transition: all .5s ease;
+                    transition: all .4s linear;
                     padding: .5rem;
                     .efeito {
                         position: absolute;
@@ -80,7 +80,7 @@
                         height: 100%;
                         background: $amarelo;
                         z-index: -1;
-                        transition: all .5s ease;
+                        transition: all .5s ease-in;
                     }
                     &:hover {
                         color: $preto;
@@ -145,7 +145,6 @@
             padding: 0;
             width: 100%;
             display: none;
-            gap: 5rem;
             .close__button {
                 display: flex;
                 flex-direction: column;

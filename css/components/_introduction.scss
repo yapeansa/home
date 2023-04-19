@@ -10,7 +10,7 @@
         .intro__content {
             display: flex;
             flex-direction: column;
-            gap: 8rem;
+            gap: 10vh;
             align-items: center;
             padding-right: 8rem;
             .intro__title {
@@ -42,10 +42,7 @@
                     content: '@';
                     font-size: 3rem;
                     color: $roxo;
-                    animation-name: pisca-pisca;
-                    animation-duration: 1.6s;
-                    animation-iteration-count: infinite;
-                    animation-timing-function: ease-in-out;
+                    animation: pisca-pisca 1.6s ease-in-out infinite;
                 }
                 .efeito__linha {
                     @include efeito-linha;
@@ -72,8 +69,8 @@
             }
             .intro__content {
                 padding: 0;
-                gap: 3rem;
                 margin-top: 3rem;
+                gap: 6vh;
                 .intro__title {
                     font-size: 2.5rem;
                 }

@@ -176,7 +176,7 @@ html .fade_out, body .fade_out {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  gap: 7rem;
+  gap: 10vh;
   background-color: #000000;
   padding-right: 4rem;
 }
@@ -212,7 +212,7 @@ html .fade_out, body .fade_out {
   position: relative;
   z-index: 1000;
   overflow: hidden;
-  transition: all 0.5s ease;
+  transition: all 0.4s linear;
   padding: 0.5rem;
 }
 .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_link .efeito {
@@ -223,7 +223,7 @@ html .fade_out, body .fade_out {
   height: 100%;
   background: #FFC719;
   z-index: -1;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in;
 }
 .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_link:hover {
   color: #000000;
@@ -280,7 +280,6 @@ html .fade_out, body .fade_out {
     padding: 0;
     width: 100%;
     display: none;
-    gap: 5rem;
   }
   .cabecalho .right .close__button {
     display: flex;
@@ -345,7 +344,7 @@ html .fade_out, body .fade_out {
 .intro .intro__container .intro__content {
   display: flex;
   flex-direction: column;
-  gap: 8rem;
+  gap: 10vh;
   align-items: center;
   padding-right: 8rem;
 }
@@ -384,10 +383,7 @@ html .fade_out, body .fade_out {
   content: "@";
   font-size: 3rem;
   color: #9400D3;
-  animation-name: pisca-pisca;
-  animation-duration: 1.6s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation: pisca-pisca 1.6s ease-in-out infinite;
 }
 .intro .intro__container .intro__content .tree .efeito__linha {
   position: absolute;
@@ -415,8 +411,8 @@ html .fade_out, body .fade_out {
   }
   .intro .intro__container .intro__content {
     padding: 0;
-    gap: 3rem;
     margin-top: 3rem;
+    gap: 6vh;
   }
   .intro .intro__container .intro__content .intro__title {
     font-size: 2.5rem;
@@ -435,12 +431,12 @@ html .fade_out, body .fade_out {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  gap: 12vh;
   height: 100vh;
 }
 .sobre .about__wrap .about__title {
   font-family: "roboto-bold";
   font-size: 3.4rem;
-  margin-bottom: 10rem;
   position: relative;
 }
 .sobre .about__wrap .about__title:before {
@@ -500,6 +496,7 @@ html .fade_out, body .fade_out {
   }
   .sobre .about__wrap {
     height: auto;
+    gap: 3vh;
   }
   .sobre .about__wrap .about__title {
     margin-bottom: 5rem;
@@ -533,7 +530,7 @@ html .fade_out, body .fade_out {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 9vh;
 }
 .formacao .formacao__title {
   font-family: "roboto-bold";
@@ -565,7 +562,7 @@ html .fade_out, body .fade_out {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3rem;
+  gap: 3vh;
   text-align: right;
 }
 .formacao .formacao__content .formacao__text .course {
