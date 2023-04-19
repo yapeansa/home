@@ -147,7 +147,7 @@ html .fade_out, body .fade_out {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  row-gap: 9rem;
+  row-gap: 15vh;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 0 4rem;
   position: relative;
@@ -168,10 +168,7 @@ html .fade_out, body .fade_out {
   line-height: 1.2;
   text-shadow: 0 0 8px #000000;
   position: relative;
-  animation-name: textoflutuante;
-  animation-duration: 3.5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  animation: textoflutuante 3.5s ease infinite;
 }
 .cabecalho .right {
   flex-basis: 50%;
@@ -251,7 +248,6 @@ html .fade_out, body .fade_out {
     height: 100vh;
     text-align: center;
     padding: 0 1rem;
-    row-gap: 7rem;
   }
   .cabecalho .left .open__button {
     display: flex;

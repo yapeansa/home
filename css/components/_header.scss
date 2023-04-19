@@ -7,7 +7,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        row-gap: 9rem;
+        row-gap: 15vh;
         background-color: rgba(0, 0, 0, .4);
         padding: 0 4rem;
         position: relative;
@@ -16,7 +16,6 @@
             position: absolute;
             top: 2rem;
             right: 1rem;
-
         }
         .logo {
             width: 12.5rem;
@@ -28,10 +27,7 @@
             line-height: 1.2;
             text-shadow: 0 0 8px $preto;
             position: relative;
-            animation-name: textoflutuante;
-            animation-duration: 3.5s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease;
+            animation: textoflutuante 3.5s ease infinite;
         }
     }
     .right {
@@ -117,7 +113,6 @@
             height: 100vh;
             text-align: center;
             padding: 0 1rem;
-            row-gap: 7rem;
             .open__button {
                 display: flex;
                 flex-direction: column;
