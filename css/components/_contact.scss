@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 6rem;
+    gap: 10vh;
     .contact__title {
         font-family: $roboto-bold;
         font-size: 3.3rem;
@@ -17,7 +17,7 @@
         }
     }
     .contact__intro__text {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 1.5;
     }
     .contact__container {
@@ -29,7 +29,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
-            gap: 3rem;
+            gap: 3.5vh;
             .contact__text {
                 font-size: 1.25rem;
                 line-height: 1.5;
@@ -120,20 +120,21 @@
 @media screen and (max-width: 1023px) {
     .contato {
         height: auto;
-        gap: 4rem;
+        gap: 2rem;
         text-align: center;
         padding: 4rem 1rem 5rem;
         .contact__title {
             font-size: 2.5rem;
+            margin-bottom: 2rem;
         }
         .contact__intro__text {
             font-size: 1.2rem;
         }
         .contact__container {
             flex-direction: column;
-            gap: 3rem;
+            gap: 2rem;
             .contact__info {
-                gap: 3rem;
+                gap: 2rem;
                 .contact__text {
                     font-size: 1.1rem;
                 }

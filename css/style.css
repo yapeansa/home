@@ -212,7 +212,7 @@ html .fade_out, body .fade_out {
   position: relative;
   z-index: 1000;
   overflow: hidden;
-  transition: all 0.4s linear;
+  transition: all 0.4s ease;
   padding: 0.5rem;
 }
 .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_link .efeito {
@@ -223,7 +223,7 @@ html .fade_out, body .fade_out {
   height: 100%;
   background: #FFC719;
   z-index: -1;
-  transition: all 0.5s ease-in;
+  transition: all 0.5s ease;
 }
 .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_link:hover {
   color: #000000;
@@ -635,7 +635,7 @@ html .fade_out, body .fade_out {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 6rem;
+  gap: 10vh;
 }
 .contato .contact__title {
   font-family: "roboto-bold";
@@ -652,7 +652,7 @@ html .fade_out, body .fade_out {
   background-color: #FFC719;
 }
 .contato .contact__intro__text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 .contato .contact__container {
@@ -665,7 +665,7 @@ html .fade_out, body .fade_out {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 3rem;
+  gap: 3.5vh;
 }
 .contato .contact__container .contact__info .contact__text {
   font-size: 1.25rem;
@@ -757,22 +757,23 @@ html .fade_out, body .fade_out {
 @media screen and (max-width: 1023px) {
   .contato {
     height: auto;
-    gap: 4rem;
+    gap: 2rem;
     text-align: center;
     padding: 4rem 1rem 5rem;
   }
   .contato .contact__title {
     font-size: 2.5rem;
+    margin-bottom: 2rem;
   }
   .contato .contact__intro__text {
     font-size: 1.2rem;
   }
   .contato .contact__container {
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
   }
   .contato .contact__container .contact__info {
-    gap: 3rem;
+    gap: 2rem;
   }
   .contato .contact__container .contact__info .contact__text {
     font-size: 1.1rem;
@@ -794,7 +795,7 @@ html .fade_out, body .fade_out {
 .rodape .copyright .author {
   text-decoration: none;
   color: #FFFFFF;
-  border-bottom: 2px solid #9400D3;
+  border-bottom: 2px solid #FFC719;
   padding: 0.3rem 0;
   transition: all 0.5s ease;
   display: inline-block;
