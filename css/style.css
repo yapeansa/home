@@ -570,7 +570,7 @@ html .fade_out, body .fade_out {
   text-align: right;
 }
 .formacao .formacao__content .formacao__text .course {
-  padding: 0 8rem;
+  padding: 0 8rem 0 2rem;
 }
 .formacao .formacao__content .formacao__text .course .institution__title {
   font-family: "roboto-bold";
