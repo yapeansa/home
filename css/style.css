@@ -334,6 +334,25 @@ html .fade_out, body .fade_out {
 }
 .intro {
   padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.intro .intro__title {
+  font-family: "roboto-bold";
+  font-size: 3.3rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.intro .intro__title:before {
+  content: "";
+  position: absolute;
+  bottom: -2rem;
+  left: -20%;
+  width: 50%;
+  height: 3.5px;
+  background-color: #000000;
 }
 .intro .intro__container {
   display: flex;
@@ -350,21 +369,6 @@ html .fade_out, body .fade_out {
   gap: 10vh;
   align-items: center;
   padding-right: 8rem;
-}
-.intro .intro__container .intro__content .intro__title {
-  font-family: "roboto-bold";
-  font-size: 3.3rem;
-  position: relative;
-  margin-bottom: 2rem;
-}
-.intro .intro__container .intro__content .intro__title:before {
-  content: "";
-  position: absolute;
-  bottom: -2rem;
-  left: -20%;
-  width: 50%;
-  height: 3.5px;
-  background-color: #000000;
 }
 .intro .intro__container .intro__content .intro__text {
   flex-basis: 50%;
@@ -404,6 +408,10 @@ html .fade_out, body .fade_out {
 @media screen and (max-width: 1023px) {
   .intro {
     padding: 3rem 1rem;
+    gap: 2rem;
+  }
+  .intro .intro__title {
+    font-size: 2.5rem;
   }
   .intro .intro__container {
     flex-direction: column;
@@ -415,10 +423,7 @@ html .fade_out, body .fade_out {
   .intro .intro__container .intro__content {
     padding: 0;
     margin-top: 3rem;
-    gap: 6vh;
-  }
-  .intro .intro__container .intro__content .intro__title {
-    font-size: 2.5rem;
+    gap: 5vh;
   }
   .intro .intro__container .intro__content .intro__text {
     font-size: 1.1rem;

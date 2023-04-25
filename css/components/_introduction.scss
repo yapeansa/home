@@ -1,5 +1,19 @@
 .intro {
     padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    .intro__title {
+        font-family: $roboto-bold;
+        font-size: 3.3rem;
+        position: relative;
+        margin-bottom: 2rem;
+        &:before {
+            @include titulo-understyle;
+            background-color: $preto;
+        }
+    }
     .intro__container {
         display: flex;
         justify-content: center;
@@ -14,16 +28,6 @@
             gap: 10vh;
             align-items: center;
             padding-right: 8rem;
-            .intro__title {
-                font-family: $roboto-bold;
-                font-size: 3.3rem;
-                position: relative;
-                margin-bottom: 2rem;
-                &:before {
-                    @include titulo-understyle;
-                    background-color: $preto;
-                }
-            }
             .intro__text {
                 flex-basis: 50%;
                 font-size: 1.2rem;
@@ -62,6 +66,10 @@
 @media screen and (max-width: 1023px) {
     .intro {
         padding: 3rem 1rem;
+        gap: 2rem;
+        .intro__title {
+            font-size: 2.5rem;
+        }
         .intro__container {
             flex-direction: column;
             height: auto;
@@ -71,10 +79,7 @@
             .intro__content {
                 padding: 0;
                 margin-top: 3rem;
-                gap: 6vh;
-                .intro__title {
-                    font-size: 2.5rem;
-                }
+                gap: 5vh;
                 .intro__text {
                     font-size: 1.1rem;
                 }
