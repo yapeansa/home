@@ -1,14 +1,14 @@
 .sobre {
     background-color: $preto;
     color: $branco;
-    padding: 0 8rem;
+    padding: 6rem 8rem;
     .about__wrap {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
         gap: 12vh;
-        height: 100vh;
+        height: auto;
         .about__title {
             font-family: $roboto-bold;
             font-size: 3.4rem;

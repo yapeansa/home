@@ -332,11 +332,14 @@ html .fade_out, body .fade_out {
     width: 1rem;
   }
 }
+.intro {
+  padding: 6rem 0;
+}
 .intro .intro__container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
 }
 .intro .intro__container .intro__image {
   max-width: 40%;
@@ -424,7 +427,7 @@ html .fade_out, body .fade_out {
 .sobre {
   background-color: #000000;
   color: #FFFFFF;
-  padding: 0 8rem;
+  padding: 6rem 8rem;
 }
 .sobre .about__wrap {
   display: flex;
@@ -432,7 +435,7 @@ html .fade_out, body .fade_out {
   align-items: flex-start;
   justify-content: center;
   gap: 12vh;
-  height: 100vh;
+  height: auto;
 }
 .sobre .about__wrap .about__title {
   font-family: "roboto-bold";
@@ -525,7 +528,8 @@ html .fade_out, body .fade_out {
   }
 }
 .formacao {
-  height: 100vh;
+  height: auto;
+  padding: 6rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -628,7 +632,8 @@ html .fade_out, body .fade_out {
   }
 }
 .contato {
-  height: 100vh;
+  height: auto;
+  padding: 6rem 0;
   background-color: #000000;
   color: #FFFFFF;
   display: flex;
