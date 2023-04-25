@@ -18,11 +18,11 @@
             right: 1rem;
         }
         .logo {
-            width: 12.5rem;
+            width: min(12.5rem, 13vw);
         }
         .cabecalho__texto {
             font-family: $roboto-thin;
-            font-size: 3.2rem;
+            font-size: min(2.8rem, 3vw);
             color: $branco;
             line-height: 1.2;
             text-shadow: 0 0 8px $preto;
@@ -65,7 +65,7 @@
                 .menu__principal_link {
                     color: $branco;
                     text-decoration: none;
-                    font-size: 2.1rem;
+                    font-size: 2rem;
                     text-transform: uppercase;
                     position: relative;
                     z-index: 1000;
