@@ -159,11 +159,11 @@ html .fade_out, body .fade_out {
   right: 1rem;
 }
 .cabecalho .left .logo {
-  width: min(12.5rem, 13vw);
+  width: 10vw;
 }
 .cabecalho .left .cabecalho__texto {
   font-family: "roboto-thin";
-  font-size: min(2.8rem, 3vw);
+  font-size: 2.9vw;
   color: #FFFFFF;
   line-height: 1.2;
   text-shadow: 0 0 8px #000000;
@@ -176,7 +176,7 @@ html .fade_out, body .fade_out {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  gap: 10vh;
+  gap: 8vh;
   background-color: #000000;
   padding-right: 4rem;
 }
@@ -186,7 +186,7 @@ html .fade_out, body .fade_out {
 .cabecalho .right .menu__principal .menu__principal_lista {
   display: flex;
   flex-direction: column;
-  row-gap: 0.4rem;
+  row-gap: 0.5vh;
   counter-reset: list;
 }
 .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_item {
@@ -195,8 +195,8 @@ html .fade_out, body .fade_out {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  -moz-column-gap: 1vw;
+       column-gap: 1vw;
 }
 .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_item::before {
   content: counter(list) ".";
@@ -207,7 +207,7 @@ html .fade_out, body .fade_out {
 .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_link {
   color: #FFFFFF;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5vw;
   text-transform: uppercase;
   position: relative;
   z-index: 1000;
@@ -575,7 +575,7 @@ html .fade_out, body .fade_out {
   text-align: right;
 }
 .formacao .formacao__content .formacao__text .course {
-  padding: 0 8rem 0 2rem;
+  padding: 0 6rem 0 2rem;
 }
 .formacao .formacao__content .formacao__text .course .institution__title {
   font-family: "roboto-bold";

@@ -18,11 +18,11 @@
             right: 1rem;
         }
         .logo {
-            width: min(12.5rem, 13vw);
+            width: /*min(12.5rem, 13vw)*/ 10vw;
         }
         .cabecalho__texto {
             font-family: $roboto-thin;
-            font-size: min(2.8rem, 3vw);
+            font-size: /*min(2.8rem, 3vw)*/ 2.9vw;
             color: $branco;
             line-height: 1.2;
             text-shadow: 0 0 8px $preto;
@@ -36,7 +36,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-end;
-        gap: 10vh;
+        gap: 8vh;
         background-color: $preto;
         padding-right: 4rem;
         .close__button {
@@ -46,7 +46,7 @@
             .menu__principal_lista {
                 display: flex;
                 flex-direction: column;
-                row-gap: .4rem;
+                row-gap: /*.4rem*/ .5vh;
                 counter-reset: list;
                 .menu__principal_item {
                     counter-increment: list;
@@ -54,7 +54,7 @@
                     display: flex;
                     align-items: flex-end;
                     justify-content: flex-end;
-                    column-gap: 2rem;
+                    column-gap: 1vw;
                     &::before {
                         content: counter(list) '.';
                         font-size: 3.7rem;
@@ -65,7 +65,7 @@
                 .menu__principal_link {
                     color: $branco;
                     text-decoration: none;
-                    font-size: 2rem;
+                    font-size: /*2rem*/ 1.5vw;
                     text-transform: uppercase;
                     position: relative;
                     z-index: 1000;
