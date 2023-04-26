@@ -39,7 +39,7 @@
                 text-decoration: none;
                 font-size: 1.3rem;
                 color: $branco;
-                border: 2px solid $roxo;
+                border: 2px dashed $amarelo;
                 padding: .5rem;
                 transition: all .5s ease;
                 &:hover {
@@ -63,14 +63,15 @@
                 input[type=text], input[type=email], textarea {
                     display: block;
                     width: 100%;
-                    border: 3px solid $preto;
-                    background-color: $branco;
+                    border: none;
+                    border-bottom: 2.5px solid $roxo;
+                    background-color: $preto;
                     margin-bottom: 1.3rem;
-                    color: $preto;
-                    -webkit-text-fill-color: $preto;
+                    color: $cinza;
+                    -webkit-text-fill-color: $cinza;
                     font-family: $roboto-regular;
-                    font-size: 1.2rem;
-                    padding: 1rem;
+                    font-size: 1.25rem;
+                    padding: 1rem 0;
                     outline: none;
                     transition: all .5s ease;
                     &::placeholder {
@@ -78,7 +79,7 @@
                     }
                     &:focus {
                         background-color: $preto;
-                        border-color: $roxo;
+                        border-color: $amarelo;
                         color: $branco;
                         -webkit-text-fill-color: $branco;
                     }
@@ -91,15 +92,16 @@
                     justify-content: center;
                     gap: 1.3rem;
                     input[type=reset], input[type=submit] {
-                        background-color: $roxo;
-                        color: $branco;
+                        background-color: $amarelo;
+                        color: $preto;
                         padding: 1rem;
                         border: none;
-                        font-size: 1.3rem;
+                        font-size: 1.1rem;
                         width: 8rem;
                         cursor: pointer;
                         border: 3px solid $preto;
                         transition: all .5s ease;
+                        text-transform: uppercase;
                         &:hover {
                             background-color: $preto;
                             border-color: $amarelo;
