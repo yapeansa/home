@@ -61,8 +61,26 @@
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1500px) {
-    
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+    .sobre {
+        .about__wrap {
+            .about__title {
+                font-size: 3rem;
+            }
+            .about__container {
+                .about__content {
+                    .about__text {
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .about__image {
+                .me {
+                    width: 18rem;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1023px) {

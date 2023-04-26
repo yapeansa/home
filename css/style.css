@@ -405,6 +405,14 @@ html .fade_out, body .fade_out {
   width: 43%;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  .intro .intro__title {
+    font-size: 3rem;
+  }
+  .intro .intro__container .intro__content .intro__text {
+    font-size: 1rem;
+  }
+}
 @media screen and (max-width: 1023px) {
   .intro {
     padding: 3rem 1rem;
@@ -497,6 +505,17 @@ html .fade_out, body .fade_out {
   padding: 1.5rem;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  .sobre .about__wrap .about__title {
+    font-size: 3rem;
+  }
+  .sobre .about__wrap .about__container .about__content .about__text {
+    font-size: 1rem;
+  }
+  .sobre .about__wrap .about__image .me {
+    width: 18rem;
+  }
+}
 @media screen and (max-width: 1023px) {
   .sobre {
     padding: 4rem 1rem;

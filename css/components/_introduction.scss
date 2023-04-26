@@ -63,6 +63,22 @@
     }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+    .intro {
+        .intro__title {
+            font-size: 3rem;
+        }
+        .intro__container {
+            //.intro__image {}
+            .intro__content {
+                .intro__text {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1023px) {
     .intro {
         padding: 3rem 1rem;
