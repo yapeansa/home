@@ -33,14 +33,15 @@
                     padding-right: 5rem;
                     .institution__link {
                         color: $branco;
-                        border-bottom: 2px solid $amarelo;
+                        border-bottom: 2px dashed $amarelo;
                         text-decoration: none;
                         display: inline-block;
                         padding: 0;
-                        transition: all .5s ease;
+                        transition: background .5s ease, color .5s ease;
                         &:hover {
                             background-color: $amarelo;
                             color: $preto;
+                            border-style: solid;
                             border-color: $preto;
                         }
                     }

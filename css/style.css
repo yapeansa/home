@@ -257,7 +257,7 @@ html .fade_out, body .fade_out {
     align-items: center;
     width: 4.5rem;
     height: 4.5rem;
-    border: 2px solid #9400D3;
+    border: 2px solid #FFC719;
   }
   .cabecalho .left .open__button .open__line {
     width: 55%;
@@ -290,7 +290,7 @@ html .fade_out, body .fade_out {
     top: 2rem;
     left: 50%;
     margin-left: -2.5rem;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #FFC719;
     width: 5rem;
     height: 5rem;
   }
@@ -320,12 +320,12 @@ html .fade_out, body .fade_out {
   .cabecalho .show {
     display: flex;
     animation-name: slideIn;
-    animation-duration: 0.5s;
+    animation-duration: 0.3s;
     animation-timing-function: ease;
   }
   .cabecalho .hide {
     animation-name: slideOut;
-    animation-duration: 0.5s;
+    animation-duration: 0.3s;
     animation-timing-function: ease;
   }
   .cabecalho .social__networks .social__menu .social__menu_link .social {
@@ -482,15 +482,16 @@ html .fade_out, body .fade_out {
 }
 .sobre .about__wrap .about__container .about__content .about__text .institution__link {
   color: #FFFFFF;
-  border-bottom: 2px solid #FFC719;
+  border-bottom: 2px dashed #FFC719;
   text-decoration: none;
   display: inline-block;
   padding: 0;
-  transition: all 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease;
 }
 .sobre .about__wrap .about__container .about__content .about__text .institution__link:hover {
   background-color: #FFC719;
   color: #000000;
+  border-style: solid;
   border-color: #000000;
 }
 .sobre .about__wrap .about__container .about__image {

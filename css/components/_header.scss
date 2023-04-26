@@ -121,7 +121,7 @@
                 align-items: center;
                 width: 4.5rem;
                 height: 4.5rem;
-                border: 2px solid $roxo;
+                border: 2px solid $amarelo;
                 .open__line {
                     width: 55%;
                     height: 3px;
@@ -154,7 +154,7 @@
                 top: 2rem;
                 left: 50%;
                 margin-left: -2.5rem;
-                border: 2px solid $branco;
+                border: 2px solid $amarelo;
                 width: 5rem;
                 height: 5rem;
                 .close__line {
@@ -188,12 +188,12 @@
         .show {
             display: flex;
             animation-name: slideIn;
-            animation-duration: .5s;
+            animation-duration: .3s;
             animation-timing-function: ease;
         }
         .hide {
             animation-name: slideOut;
-            animation-duration: .5s;
+            animation-duration: .3s;
             animation-timing-function: ease;
         }
         .social__networks {
