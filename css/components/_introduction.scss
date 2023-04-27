@@ -6,7 +6,7 @@
     gap: 3rem;
     .intro__title {
         font-family: $texto-medium;
-        font-size: 3.3rem;
+        font-size: 3rem;
         position: relative;
         margin-bottom: 2rem;
         &:before {
@@ -36,12 +36,12 @@
             }
             .tree {
                 display: inline-block;
-                font-size: 2.2rem;
+                font-size: 2rem;
                 text-align: center;
                 text-decoration: none;
                 color: $preto;
                 transition: all .5s ease;
-                padding: .5rem 0;
+                padding: .7rem 0;
                 position: relative;
                 &:before {
                     content: '@';

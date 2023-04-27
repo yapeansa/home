@@ -10,7 +10,7 @@
     gap: 10vh;
     .contact__title {
         font-family: $texto-medium;
-        font-size: 3.3rem;
+        font-size: 3rem;
         position: relative;
         &:before {
             @include titulo-understyle;

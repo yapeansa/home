@@ -1,16 +1,21 @@
 @font-face {
-    src: url('../fonts/Montserrat-Thin.ttf');
+    src: url('../fonts/Roboto-Thin.ttf');
     font-family: 'texto-thin';
 }
 @font-face {
-    src: url('../fonts/Montserrat-Regular.ttf');
+    src: url('../fonts/Roboto-Regular.ttf');
     font-family: 'texto-regular';
 }
 @font-face {
-    src: url('../fonts/Montserrat-Medium.ttf');
+    src: url('../fonts/Roboto-Medium.ttf');
     font-family: 'texto-medium';
+}
+@font-face {
+    src: url('../fonts/Montserrat-Regular.ttf');
+    font-family: 'texto-menu';
 }
 
 $texto-regular: 'texto-regular';
 $texto-thin: 'texto-thin';
 $texto-medium: 'texto-medium';
+$texto-menu: 'texto-menu';

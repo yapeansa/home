@@ -11,7 +11,7 @@
         height: auto;
         .about__title {
             font-family: $texto-medium;
-            font-size: 3.4rem;
+            font-size: 3rem;
             position: relative;
             &:before {
                 @include titulo-understyle;

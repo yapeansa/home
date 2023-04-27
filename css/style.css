@@ -1,14 +1,18 @@
 @font-face {
-  src: url("../fonts/Montserrat-Thin.ttf");
+  src: url("../fonts/Roboto-Thin.ttf");
   font-family: "texto-thin";
 }
 @font-face {
-  src: url("../fonts/Montserrat-Regular.ttf");
+  src: url("../fonts/Roboto-Regular.ttf");
   font-family: "texto-regular";
 }
 @font-face {
-  src: url("../fonts/Montserrat-Medium.ttf");
+  src: url("../fonts/Roboto-Medium.ttf");
   font-family: "texto-medium";
+}
+@font-face {
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-family: "texto-menu";
 }
 @keyframes textoflutuante {
   0% {
@@ -188,6 +192,7 @@ html .fade_out, body .fade_out {
   flex-direction: column;
   row-gap: 0.5vh;
   counter-reset: list;
+  font-family: "texto-menu";
 }
 .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_item {
   counter-increment: list;
@@ -341,7 +346,7 @@ html .fade_out, body .fade_out {
 }
 .intro .intro__title {
   font-family: "texto-medium";
-  font-size: 3.3rem;
+  font-size: 3rem;
   position: relative;
   margin-bottom: 2rem;
 }
@@ -378,12 +383,12 @@ html .fade_out, body .fade_out {
 }
 .intro .intro__container .intro__content .tree {
   display: inline-block;
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-align: center;
   text-decoration: none;
   color: #000000;
   transition: all 0.5s ease;
-  padding: 0.5rem 0;
+  padding: 0.7rem 0;
   position: relative;
 }
 .intro .intro__container .intro__content .tree:before {
@@ -452,7 +457,7 @@ html .fade_out, body .fade_out {
 }
 .sobre .about__wrap .about__title {
   font-family: "texto-medium";
-  font-size: 3.4rem;
+  font-size: 3rem;
   position: relative;
 }
 .sobre .about__wrap .about__title:before {
@@ -563,7 +568,7 @@ html .fade_out, body .fade_out {
 }
 .formacao .formacao__title {
   font-family: "texto-medium";
-  font-size: 3.3rem;
+  font-size: 3rem;
   position: relative;
 }
 .formacao .formacao__title:before {
@@ -669,7 +674,7 @@ html .fade_out, body .fade_out {
 }
 .contato .contact__title {
   font-family: "texto-medium";
-  font-size: 3.3rem;
+  font-size: 3rem;
   position: relative;
 }
 .contato .contact__title:before {

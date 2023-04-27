@@ -48,6 +48,7 @@
                 flex-direction: column;
                 row-gap: /*.4rem*/ .5vh;
                 counter-reset: list;
+                font-family: $texto-menu;
                 .menu__principal_item {
                     counter-increment: list;
                     color: $branco;
