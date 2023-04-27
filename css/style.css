@@ -1,14 +1,14 @@
 @font-face {
-  src: url("../fonts/Roboto-Thin.ttf");
-  font-family: "roboto-thin";
+  src: url("../fonts/Montserrat-Thin.ttf");
+  font-family: "texto-thin";
 }
 @font-face {
-  src: url("../fonts/Roboto-Regular.ttf");
-  font-family: "roboto-regular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-family: "texto-regular";
 }
 @font-face {
-  src: url("../fonts/Roboto-Bold.ttf");
-  font-family: "roboto-bold";
+  src: url("../fonts/Montserrat-Medium.ttf");
+  font-family: "texto-medium";
 }
 @keyframes textoflutuante {
   0% {
@@ -73,7 +73,7 @@
   }
 }
 html, body {
-  font-family: "roboto-regular";
+  font-family: "texto-regular";
   scroll-behavior: smooth;
 }
 html ::-webkit-scrollbar, body ::-webkit-scrollbar {
@@ -162,7 +162,7 @@ html .fade_out, body .fade_out {
   width: 10vw;
 }
 .cabecalho .left .cabecalho__texto {
-  font-family: "roboto-thin";
+  font-family: "texto-thin";
   font-size: 2.9vw;
   color: #FFFFFF;
   line-height: 1.2;
@@ -340,7 +340,7 @@ html .fade_out, body .fade_out {
   gap: 3rem;
 }
 .intro .intro__title {
-  font-family: "roboto-bold";
+  font-family: "texto-medium";
   font-size: 3.3rem;
   position: relative;
   margin-bottom: 2rem;
@@ -451,7 +451,7 @@ html .fade_out, body .fade_out {
   height: auto;
 }
 .sobre .about__wrap .about__title {
-  font-family: "roboto-bold";
+  font-family: "texto-medium";
   font-size: 3.4rem;
   position: relative;
 }
@@ -562,7 +562,7 @@ html .fade_out, body .fade_out {
   gap: 9vh;
 }
 .formacao .formacao__title {
-  font-family: "roboto-bold";
+  font-family: "texto-medium";
   font-size: 3.3rem;
   position: relative;
 }
@@ -598,11 +598,11 @@ html .fade_out, body .fade_out {
   padding: 0 6rem 0 2rem;
 }
 .formacao .formacao__content .formacao__text .course .institution__title {
-  font-family: "roboto-bold";
+  font-family: "texto-medium";
   font-size: 1.3rem;
 }
 .formacao .formacao__content .formacao__text .course .course__title {
-  font-family: "roboto-bold";
+  font-family: "texto-medium";
   font-size: 1.8rem;
   margin: 1rem 0;
   color: #9400D3;
@@ -668,7 +668,7 @@ html .fade_out, body .fade_out {
   gap: 10vh;
 }
 .contato .contact__title {
-  font-family: "roboto-bold";
+  font-family: "texto-medium";
   font-size: 3.3rem;
   position: relative;
 }
@@ -737,7 +737,7 @@ html .fade_out, body .fade_out {
   margin-bottom: 1.3rem;
   color: #999;
   -webkit-text-fill-color: #999;
-  font-family: "roboto-regular";
+  font-family: "texto-regular";
   font-size: 1.25rem;
   padding: 0.7rem 0;
   outline: none;

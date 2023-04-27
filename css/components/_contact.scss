@@ -9,7 +9,7 @@
     justify-content: center;
     gap: 10vh;
     .contact__title {
-        font-family: $roboto-bold;
+        font-family: $texto-medium;
         font-size: 3.3rem;
         position: relative;
         &:before {
@@ -70,7 +70,7 @@
                     margin-bottom: 1.3rem;
                     color: $cinza;
                     -webkit-text-fill-color: $cinza;
-                    font-family: $roboto-regular;
+                    font-family: $texto-regular;
                     font-size: 1.25rem;
                     padding: .7rem 0;
                     outline: none;
