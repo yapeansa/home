@@ -720,6 +720,30 @@ html .fade_out, body .fade_out {
   border-color: #000000;
   color: #FFFFFF;
 }
+.contato .contact__container .contact__info .arv__link {
+  position: relative;
+  text-decoration: none;
+  color: #999;
+  padding: 0.5rem 0;
+  display: inlin-block;
+  transition: all 0.3s ease;
+}
+.contato .contact__container .contact__info .arv__link .efeito__linha {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 3px;
+  background: #9400D3;
+  transition: all 0.5s ease;
+  width: 43%;
+  background: #FFC719;
+}
+.contato .contact__container .contact__info .arv__link:hover {
+  color: #FFFFFF;
+}
+.contato .contact__container .contact__info .arv__link:hover .efeito__linha {
+  width: 100%;
+}
 .contato .contact__container .contact__form {
   flex-basis: 50%;
   display: flex;

@@ -49,6 +49,25 @@
                     color: $branco;
                 }
             }
+            .arv__link {
+                position: relative;
+                text-decoration: none;
+                color: $cinza;
+                padding: .5rem 0;
+                display: inlin-block;
+                transition: all .3s ease;
+                .efeito__linha {
+                    @include efeito-linha;
+                    width: 43%;
+                    background: $amarelo;
+                }
+                &:hover {
+                    color: $branco;
+                    .efeito__linha {
+                        width: 100%;
+                    }
+                }
+            }
         }
         .contact__form {
             flex-basis: 50%;
