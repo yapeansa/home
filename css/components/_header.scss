@@ -98,7 +98,7 @@
                 gap: 2rem;
                 &:hover {
                     .social__menu_link {
-                        opacity: .5;
+                        opacity: .3;
                     }
                 }
                 .social__menu_link {
@@ -107,7 +107,7 @@
                         opacity: 1;
                     }
                     .social {
-                        width: 2.5rem;
+                        width: 2.1vw;
                     }
                 }
             }
@@ -160,10 +160,8 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                position: absolute;
-                top: 2rem;
-                left: 50%;
-                margin-left: -2.5rem;
+                position: relative;
+                top: -3.5rem;
                 border: 2px solid $amarelo;
                 width: 5rem;
                 height: 5rem;
@@ -194,6 +192,15 @@
                     }
                 }
             }
+            .social__networks {
+                .social__menu {
+                    .social__menu_link {
+                        .social {
+                            width: 2.1rem;
+                        }
+                    }
+                }
+            }
         }
         .show {
             display: flex;
@@ -205,15 +212,6 @@
             animation-name: slideOut;
             animation-duration: .3s;
             animation-timing-function: ease;
-        }
-        .social__networks {
-            .social__menu {
-                .social__menu_link {
-                    .social {
-                        width: 1rem;
-                    }
-                }
-            }
         }
     }
 }

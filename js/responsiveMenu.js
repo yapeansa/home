@@ -34,7 +34,7 @@ for (var i = 0; i < 2; i++) {
 
 const rightPane = document.querySelector('.right');
 
-rightPane.appendChild(closeButton);
+rightPane.prepend(closeButton);
 
 const close = document.getElementById('close');
 

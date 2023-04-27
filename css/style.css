@@ -242,7 +242,7 @@ html .fade_out, body .fade_out {
   gap: 2rem;
 }
 .cabecalho .right .social__networks .social__menu:hover .social__menu_link {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 .cabecalho .right .social__networks .social__menu .social__menu_link {
   transition: all 0.3s ease;
@@ -251,7 +251,7 @@ html .fade_out, body .fade_out {
   opacity: 1;
 }
 .cabecalho .right .social__networks .social__menu .social__menu_link .social {
-  width: 2.5rem;
+  width: 2.1vw;
 }
 
 @media screen and (max-width: 1023px) {
@@ -301,10 +301,8 @@ html .fade_out, body .fade_out {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 2rem;
-    left: 50%;
-    margin-left: -2.5rem;
+    position: relative;
+    top: -3.5rem;
     border: 2px solid #FFC719;
     width: 5rem;
     height: 5rem;
@@ -332,6 +330,9 @@ html .fade_out, body .fade_out {
   .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_link {
     font-size: 1.6rem;
   }
+  .cabecalho .right .social__networks .social__menu .social__menu_link .social {
+    width: 2.1rem;
+  }
   .cabecalho .show {
     display: flex;
     animation-name: slideIn;
@@ -342,9 +343,6 @@ html .fade_out, body .fade_out {
     animation-name: slideOut;
     animation-duration: 0.3s;
     animation-timing-function: ease;
-  }
-  .cabecalho .social__networks .social__menu .social__menu_link .social {
-    width: 1rem;
   }
 }
 .intro {
