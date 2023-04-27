@@ -206,7 +206,7 @@ html .fade_out, body .fade_out {
 }
 .cabecalho .right .menu__principal .menu__principal_lista .menu__principal_item::before {
   content: counter(list) ".";
-  font-size: 3.7rem;
+  font-size: 3.1vw;
   color: #9400D3;
   padding: 0.5rem 0 0;
 }
@@ -242,7 +242,7 @@ html .fade_out, body .fade_out {
   gap: 2rem;
 }
 .cabecalho .right .social__networks .social__menu:hover .social__menu_link {
-  opacity: 0.3;
+  opacity: 0.25;
 }
 .cabecalho .right .social__networks .social__menu .social__menu_link {
   transition: all 0.3s ease;
