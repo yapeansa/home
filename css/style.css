@@ -241,6 +241,15 @@ html .fade_out, body .fade_out {
   display: flex;
   gap: 2rem;
 }
+.cabecalho .right .social__networks .social__menu:hover .social__menu_link {
+  opacity: 0.5;
+}
+.cabecalho .right .social__networks .social__menu .social__menu_link {
+  transition: all 0.3s ease;
+}
+.cabecalho .right .social__networks .social__menu .social__menu_link:hover {
+  opacity: 1;
+}
 .cabecalho .right .social__networks .social__menu .social__menu_link .social {
   width: 2.5rem;
 }

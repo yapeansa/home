@@ -96,7 +96,16 @@
             .social__menu {
                 display: flex;
                 gap: 2rem;
+                &:hover {
+                    .social__menu_link {
+                        opacity: .5;
+                    }
+                }
                 .social__menu_link {
+                    transition: all .3s ease;
+                    &:hover {
+                        opacity: 1;
+                    }
                     .social {
                         width: 2.5rem;
                     }
