@@ -9,13 +9,14 @@
         .author {
             text-decoration: none;
             color: $branco;
-            border-bottom: 2px dashed $amarelo;
+            border-bottom: 2px dashed $roxo;
             padding: .3rem 0;
             transition: all .5s ease;
             display: inline-block;
             &:hover {
                 background-color: $amarelo;
                 color: $preto;
+                border-style: solid;
                 border-color: $preto;
             }
         }

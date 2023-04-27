@@ -717,6 +717,7 @@ html .fade_out, body .fade_out {
 }
 .contato .contact__container .contact__info .mail:hover {
   background-color: #9400D3;
+  border-style: solid;
   border-color: #000000;
   color: #FFFFFF;
 }
@@ -793,21 +794,22 @@ html .fade_out, body .fade_out {
   gap: 1.3rem;
 }
 .contato .contact__container .contact__form .formulario__contato .buttons__form input[type=reset], .contato .contact__container .contact__form .formulario__contato .buttons__form input[type=submit] {
-  background-color: #FFC719;
-  color: #000000;
+  background-color: #000000;
+  color: #FFFFFF;
   padding: 1rem;
   border: none;
   font-size: 1.1rem;
   width: 8rem;
   cursor: pointer;
-  border: 3px solid #000000;
+  border: 3px solid #FFC719;
   transition: all 0.5s ease;
   text-transform: uppercase;
+  border-radius: 25px;
 }
 .contato .contact__container .contact__form .formulario__contato .buttons__form input[type=reset]:hover, .contato .contact__container .contact__form .formulario__contato .buttons__form input[type=submit]:hover {
-  background-color: #000000;
-  border-color: #FFC719;
-  color: #FFFFFF;
+  background-color: #FFC719;
+  border-color: #000000;
+  color: #000000;
 }
 .contato .contact__container .contact__form .formulario__contato .buttons__form input[type=reset]:active, .contato .contact__container .contact__form .formulario__contato .buttons__form input[type=submit]:active {
   background-color: #FFC719;
@@ -857,7 +859,7 @@ html .fade_out, body .fade_out {
 .rodape .copyright .author {
   text-decoration: none;
   color: #FFFFFF;
-  border-bottom: 2px dashed #FFC719;
+  border-bottom: 2px dashed #9400D3;
   padding: 0.3rem 0;
   transition: all 0.5s ease;
   display: inline-block;
@@ -865,6 +867,7 @@ html .fade_out, body .fade_out {
 .rodape .copyright .author:hover {
   background-color: #FFC719;
   color: #000000;
+  border-style: solid;
   border-color: #000000;
 }
 
