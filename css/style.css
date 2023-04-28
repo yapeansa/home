@@ -454,6 +454,7 @@ html .fade_out, body .fade_out {
   }
   .intro .intro__container .intro__content .intro__text {
     font-size: 1.1rem;
+    text-align: center;
   }
 }
 .sobre {
