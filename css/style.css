@@ -373,20 +373,26 @@ html .fade_out, body .fade_out {
   align-items: center;
   height: auto;
 }
-.intro .intro__container .intro__image {
-  max-width: 40%;
+.intro .intro__container .image__cont {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+}
+.intro .intro__container .image__cont .intro__image {
+  max-width: 50%;
 }
 .intro .intro__container .intro__content {
+  flex-basis: 60%;
   display: flex;
   flex-direction: column;
-  gap: 10vh;
+  gap: 8vh;
   align-items: center;
+  justify-content: center;
   padding-right: 8rem;
 }
 .intro .intro__container .intro__content .intro__text {
-  flex-basis: 50%;
   font-size: 1.2rem;
-  text-align: center;
+  text-align: justify;
   line-height: 1.5;
 }
 .intro .intro__container .intro__content .tree {

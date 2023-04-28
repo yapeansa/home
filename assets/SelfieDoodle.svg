@@ -7,11 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 1024 768"
+   viewBox="0 0 543.05664 768"
    version="1.1"
    id="svg20"
    sodipodi:docname="SelfieDoodle.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   width="543.05664"
+   height="768">
   <metadata
      id="metadata26">
     <rdf:RDF>
@@ -20,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -35,26 +38,29 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1013"
+     inkscape:window-height="1012"
      id="namedview22"
      showgrid="false"
      inkscape:zoom="0.86915208"
-     inkscape:cx="535.92814"
+     inkscape:cx="294.31291"
      inkscape:cy="391.59311"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="react-group-101" />
+     inkscape:current-layer="react-group-101"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <g
      style="fill-rule:evenodd;stroke:none;stroke-width:1"
-     id="react-group-101">
-    <rect
-       height="768"
-       width="1024"
-       y="0"
-       x="0"
+     id="react-group-101"
+     transform="translate(-241.61523)">
+    <path
+       style="fill:#ffffff"
+       d="M 241.61523,0 V 768 H 784.67188 V 0 Z"
        id="react-rect-103"
-       style="fill:#ffffff" />
+       inkscape:connector-curvature="0" />
     <path
        style="fill:#9400d3;fill-opacity:1"
        inkscape:connector-curvature="0"
