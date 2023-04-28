@@ -40,7 +40,7 @@
                 text-decoration: none;
                 font-size: 1.3rem;
                 color: $branco;
-                border: 2px dashed $amarelo;
+                border: 2px dashed $roxo;
                 padding: .5rem;
                 transition: all .5s ease;
                 &:hover {
@@ -53,10 +53,11 @@
             .arv__link {
                 position: relative;
                 text-decoration: none;
-                color: $cinza;
-                padding: .5rem 0;
-                display: inlin-block;
+                color: $branco;
+                padding: .7rem 0;
+                display: inline-block;
                 transition: all .3s ease;
+                font-size: 1.3rem;
                 .efeito__linha {
                     @include efeito-linha;
                     width: 43%;
@@ -92,7 +93,7 @@
                     -webkit-text-fill-color: $cinza;
                     font-family: $texto-regular;
                     font-size: 1.25rem;
-                    padding: .7rem 0;
+                    padding: .5rem 0;
                     outline: none;
                     transition: all .5s ease;
                     &::placeholder {
@@ -113,14 +114,14 @@
                     justify-content: center;
                     gap: 1.3rem;
                     input[type=reset], input[type=submit] {
-                        background-color: $preto;
+                        background-color: $roxo;
                         color: $branco;
                         padding: 1rem;
                         border: none;
                         font-size: 1.1rem;
                         width: 8rem;
                         cursor: pointer;
-                        border: 3px solid $amarelo;
+                        border: 3px solid $preto;
                         transition: all .5s ease;
                         text-transform: uppercase;
                         border-radius: 25px;

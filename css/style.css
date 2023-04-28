@@ -719,7 +719,7 @@ html .fade_out, body .fade_out {
   text-decoration: none;
   font-size: 1.3rem;
   color: #FFFFFF;
-  border: 2px dashed #FFC719;
+  border: 2px dashed #9400D3;
   padding: 0.5rem;
   transition: all 0.5s ease;
 }
@@ -732,10 +732,11 @@ html .fade_out, body .fade_out {
 .contato .contact__container .contact__info .arv__link {
   position: relative;
   text-decoration: none;
-  color: #999;
-  padding: 0.5rem 0;
-  display: inlin-block;
+  color: #FFFFFF;
+  padding: 0.7rem 0;
+  display: inline-block;
   transition: all 0.3s ease;
+  font-size: 1.3rem;
 }
 .contato .contact__container .contact__info .arv__link .efeito__linha {
   position: absolute;
@@ -777,7 +778,7 @@ html .fade_out, body .fade_out {
   -webkit-text-fill-color: #999;
   font-family: "texto-regular";
   font-size: 1.25rem;
-  padding: 0.7rem 0;
+  padding: 0.5rem 0;
   outline: none;
   transition: all 0.5s ease;
 }
@@ -802,14 +803,14 @@ html .fade_out, body .fade_out {
   gap: 1.3rem;
 }
 .contato .contact__container .contact__form .formulario__contato .buttons__form input[type=reset], .contato .contact__container .contact__form .formulario__contato .buttons__form input[type=submit] {
-  background-color: #000000;
+  background-color: #9400D3;
   color: #FFFFFF;
   padding: 1rem;
   border: none;
   font-size: 1.1rem;
   width: 8rem;
   cursor: pointer;
-  border: 3px solid #FFC719;
+  border: 3px solid #000000;
   transition: all 0.5s ease;
   text-transform: uppercase;
   border-radius: 25px;
