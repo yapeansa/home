@@ -637,6 +637,7 @@ html .fade_out, body .fade_out {
   text-transform: uppercase;
   color: #000000;
   padding: 0.5rem 0;
+  font-family: "texto-medium";
   font-size: 1.25rem;
   margin-top: 1rem;
   position: relative;
@@ -743,7 +744,9 @@ html .fade_out, body .fade_out {
   padding: 0.7rem 0 0.7rem 0.7rem;
   display: inline-block;
   transition: all 0.3s ease;
+  font-family: "texto-medium";
   font-size: 1.3rem;
+  text-transform: uppercase;
 }
 .contato .contact__container .contact__info .arv__link .efeito__linha {
   position: absolute;

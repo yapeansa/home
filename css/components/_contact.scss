@@ -57,7 +57,9 @@
                 padding: .7rem 0 .7rem .7rem;
                 display: inline-block;
                 transition: all .3s ease;
+                font-family: $texto-medium;
                 font-size: 1.3rem;
+                text-transform: uppercase;
                 .efeito__linha {
                     @include efeito-linha;
                     width: 43%;
