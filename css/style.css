@@ -638,7 +638,7 @@ html .fade_out, body .fade_out {
   color: #000000;
   padding: 0.5rem 0;
   font-family: "texto-medium";
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin-top: 1rem;
   position: relative;
 }
@@ -732,9 +732,7 @@ html .fade_out, body .fade_out {
   transition: all 0.5s ease;
 }
 .contato .contact__container .contact__info .mail:hover {
-  background-color: #9400D3;
-  border-style: solid;
-  border-color: #000000;
+  border-color: #FFC719;
   color: #FFFFFF;
 }
 .contato .contact__container .contact__info .arv__link {
@@ -745,7 +743,7 @@ html .fade_out, body .fade_out {
   display: inline-block;
   transition: all 0.3s ease;
   font-family: "texto-medium";
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 .contato .contact__container .contact__info .arv__link .efeito__linha {
