@@ -239,7 +239,7 @@ html .fade_out, body .fade_out {
 }
 .cabecalho .right .social__networks .social__menu {
   display: flex;
-  gap: 2rem;
+  gap: 1.6rem;
 }
 .cabecalho .right .social__networks .social__menu:hover .social__menu_link {
   opacity: 0.25;

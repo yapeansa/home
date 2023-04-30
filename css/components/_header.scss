@@ -18,11 +18,11 @@
             right: 1rem;
         }
         .logo {
-            width: /*min(12.5rem, 13vw)*/ 10vw;
+            width: 10vw;
         }
         .cabecalho__texto {
             font-family: $texto-thin;
-            font-size: /*min(2.8rem, 3vw)*/ 2.9vw;
+            font-size: 2.9vw;
             color: $branco;
             line-height: 1.2;
             text-shadow: 0 0 8px $preto;
@@ -46,7 +46,7 @@
             .menu__principal_lista {
                 display: flex;
                 flex-direction: column;
-                row-gap: /*.4rem*/ .5vh;
+                row-gap: .5vh;
                 counter-reset: list;
                 font-family: $texto-menu;
                 .menu__principal_item {
@@ -58,7 +58,7 @@
                     column-gap: 1vw;
                     &::before {
                         content: counter(list) '.';
-                        font-size: /*3.7rem*/ 3.1vw;
+                        font-size: 3.1vw;
                         color: $roxo;
                         padding: .5rem 0 0;
                     }
@@ -66,7 +66,7 @@
                 .menu__principal_link {
                     color: $branco;
                     text-decoration: none;
-                    font-size: /*2rem*/ 1.5vw;
+                    font-size: 1.5vw;
                     text-transform: uppercase;
                     position: relative;
                     z-index: 1000;
@@ -95,7 +95,7 @@
         .social__networks {
             .social__menu {
                 display: flex;
-                gap: 2rem;
+                gap: 1.6rem;
                 &:hover {
                     .social__menu_link {
                         opacity: .25;
