@@ -524,6 +524,12 @@ html .fade_out, body .fade_out {
   border-radius: 100%;
   border: 3px solid #9400D3;
   padding: 1.5rem;
+  transition: border-color 0.6s ease, filter 0.6s ease;
+}
+.sobre .about__wrap .about__container .about__image .me:hover {
+  border-color: #FFC719;
+  filter: sepia(50%);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
