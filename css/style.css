@@ -455,6 +455,7 @@ html .fade_out, body .fade_out {
   .intro .intro__container .intro__content .intro__text {
     font-size: 1.1rem;
     text-align: center;
+    padding: 0;
   }
 }
 .sobre {
@@ -679,6 +680,7 @@ html .fade_out, body .fade_out {
   }
   .formacao .formacao__content .formacao__text {
     text-align: center;
+    padding: 0;
   }
   .formacao .formacao__content .formacao__text .course {
     padding: 0;
