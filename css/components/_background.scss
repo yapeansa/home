@@ -54,18 +54,24 @@
                     text-decoration: none;
                     text-transform: uppercase;
                     color: $preto;
-                    padding: .5rem 0;
+                    padding: .5rem .3rem;
                     font-family: $texto-medium;
                     font-size: 1.2rem;
                     margin-top: 1rem;
                     position: relative;
+                    overflow: hidden;
+                    z-index: 1;
                     .efeito__linha {
                         @include efeito-linha;
-                        width: 30%;
+                        width: 100%;
+                        height: 100%;
+                        top: 93%;
                     }
                     &:hover {
+                        color: $branco;
                         .efeito__linha {
-                            width: 100%;
+                            top: 0;
+                            z-index: -1;
                         }
                     }
                 }
