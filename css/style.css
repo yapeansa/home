@@ -749,12 +749,14 @@ html .fade_out, body .fade_out {
   position: relative;
   text-decoration: none;
   color: #FFFFFF;
-  padding: 0.7rem 0 0.7rem 0.7rem;
+  padding: 0.9rem 0.3rem 0.7rem;
   display: inline-block;
   transition: all 0.3s ease;
   font-family: "texto-medium";
   font-size: 1.2rem;
   text-transform: uppercase;
+  z-index: 1;
+  overflow: hidden;
 }
 .contato .contact__container .contact__info .arv__link .efeito__linha {
   position: absolute;
@@ -763,14 +765,17 @@ html .fade_out, body .fade_out {
   height: 3px;
   background: #9400D3;
   transition: all 0.5s ease;
-  width: 43%;
+  width: 100%;
+  height: 100%;
+  top: 95%;
   background: #FFC719;
+  z-index: -1;
 }
 .contato .contact__container .contact__info .arv__link:hover {
-  color: #FFFFFF;
+  color: #000000;
 }
 .contato .contact__container .contact__info .arv__link:hover .efeito__linha {
-  width: 100%;
+  top: 0;
 }
 .contato .contact__container .contact__form {
   flex-basis: 50%;
@@ -887,7 +892,6 @@ html .fade_out, body .fade_out {
 .rodape .copyright .author {
   text-decoration: none;
   color: #FFFFFF;
-  border-bottom: 2px solid #FFC719;
   padding: 0;
   transition: all 0.5s ease;
   display: inline-block;
