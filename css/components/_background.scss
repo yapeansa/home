@@ -54,7 +54,7 @@
                     text-decoration: none;
                     text-transform: uppercase;
                     color: $preto;
-                    padding: .5rem .3rem;
+                    padding: .5rem .2rem;
                     font-family: $texto-medium;
                     font-size: 1.2rem;
                     margin-top: 1rem;
@@ -64,13 +64,13 @@
                     .efeito__linha {
                         @include efeito-linha;
                         width: 100%;
-                        height: 100%;
-                        top: 93%;
+                        height: 3px;
+                        bottom: 0;
                     }
                     &:hover {
                         color: $branco;
                         .efeito__linha {
-                            top: 0;
+                            height: 100%;
                             z-index: -1;
                         }
                     }

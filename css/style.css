@@ -418,10 +418,10 @@ html .fade_out, body .fade_out {
   height: 3px;
   background: #9400D3;
   transition: all 0.5s ease;
-  width: 0;
+  width: 36%;
 }
 .intro .intro__container .intro__content .tree:hover .efeito__linha {
-  width: 43%;
+  width: 82%;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
@@ -644,7 +644,7 @@ html .fade_out, body .fade_out {
   text-decoration: none;
   text-transform: uppercase;
   color: #000000;
-  padding: 0.5rem 0.3rem;
+  padding: 0.5rem 0.2rem;
   font-family: "texto-medium";
   font-size: 1.2rem;
   margin-top: 1rem;
@@ -660,14 +660,14 @@ html .fade_out, body .fade_out {
   background: #9400D3;
   transition: all 0.5s ease;
   width: 100%;
-  height: 100%;
-  top: 93%;
+  height: 3px;
+  bottom: 0;
 }
 .formacao .formacao__content .formacao__text .course .tcc__link:hover {
   color: #FFFFFF;
 }
 .formacao .formacao__content .formacao__text .course .tcc__link:hover .efeito__linha {
-  top: 0;
+  height: 100%;
   z-index: -1;
 }
 
@@ -774,8 +774,8 @@ html .fade_out, body .fade_out {
   background: #9400D3;
   transition: all 0.5s ease;
   width: 100%;
-  height: 100%;
-  top: 95%;
+  height: 2px;
+  bottom: 0;
   background: #FFC719;
   z-index: -1;
 }
@@ -783,7 +783,7 @@ html .fade_out, body .fade_out {
   color: #000000;
 }
 .contato .contact__container .contact__info .arv__link:hover .efeito__linha {
-  top: 0;
+  height: 100%;
 }
 .contato .contact__container .contact__form {
   flex-basis: 50%;
