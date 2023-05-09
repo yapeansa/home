@@ -9,15 +9,13 @@
         .author {
             text-decoration: none;
             color: $branco;
-            //border-bottom: 2px solid $amarelo;
+            border-bottom: 2px dashed $cinza-claro;
             padding: 0;
             transition: all .5s ease;
             display: inline-block;
             &:hover {
-                background-color: $amarelo;
-                color: $preto;
                 border-style: solid;
-                border-color: $preto;
+                border-color: $amarelo;
             }
         }
     }
