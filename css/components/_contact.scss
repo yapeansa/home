@@ -55,7 +55,7 @@
                 color: $branco;
                 padding: .7rem .3rem;
                 display: inline-block;
-                transition: all .5s ease;
+                transition: all .3s ease;
                 font-family: $texto-medium;
                 font-size: 1.2rem;
                 text-transform: uppercase;
@@ -67,6 +67,7 @@
                     height: 2px;
                     bottom: 0;
                     background: $amarelo;
+                    transition: all .3s ease;
                     z-index: -1;
                 }
                 &:hover {
