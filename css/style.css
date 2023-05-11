@@ -904,14 +904,13 @@ html .fade_out, body .fade_out {
 .rodape .copyright .author {
   text-decoration: none;
   color: #FFFFFF;
-  border-bottom: 2px dashed #DDDDDD;
-  padding: 0;
+  border-bottom: 2px solid #FFC719;
+  padding: 0.3rem 0;
   transition: all 0.5s ease;
   display: inline-block;
 }
 .rodape .copyright .author:hover {
-  border-style: solid;
-  border-color: #FFC719;
+  border-style: dashed;
 }
 
 @media screen and (max-width: 1023px) {
