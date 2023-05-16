@@ -9,12 +9,12 @@
         .author {
             text-decoration: none;
             color: $branco;
-            border-bottom: 2px solid $amarelo;
+            border-bottom: 2px dashed $amarelo;
             padding: .3rem 0;
             transition: all .5s ease;
             display: inline-block;
             &:hover {
-                border-style: dashed;
+                border-style: dotted;
             }
         }
     }
