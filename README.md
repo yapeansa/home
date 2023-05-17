@@ -28,7 +28,7 @@ Para o desenvolvimento deste site, foram utilizadas as seguintes tecnologias:
 
 <h2>Imagem do Projeto</h2>
 
-![Portfolio V.2](img/imagem-do-projeto.png#vitrinedev)
+![Portfolio V.2](assets/imagem-do-projeto.png#vitrinedev)
 
 <h3>Acesso ao Projeto</h3>
 
