@@ -24,18 +24,19 @@
     .contact__container {
         width: 100%;
         display: flex;
+        gap: 5rem;
         .contact__info {
             flex-basis: 50%;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             justify-content: flex-start;
             gap: 3.5vh;
             padding: 0 1rem;
             .contact__text {
                 font-size: 1.25rem;
                 line-height: 1.5;
-                text-align: center;
+                padding-right: 4rem;
             }
             .mail {
                 text-decoration: none;
@@ -86,6 +87,7 @@
             align-items: center;
             .formulario__contato {
                 width: 70%;
+                align-self: self-end;
                 label {
                     display: none;
                 }
@@ -169,6 +171,7 @@
             gap: 2rem;
             .contact__info {
                 gap: 2rem;
+                align-items: center;
                 .contact__text {
                     font-size: 1.1rem;
                 }
