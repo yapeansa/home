@@ -43,11 +43,12 @@
             .tree {
                 display: inline-block;
                 font-size: 2rem;
-                text-align: center;
+                align-self: self-start;
                 text-decoration: none;
                 color: $preto;
                 transition: all .5s ease;
                 padding: .7rem 0;
+                margin-left: 4rem;
                 position: relative;
                 &:before {
                     content: '@';
@@ -75,7 +76,6 @@
             font-size: 3rem;
         }
         .intro__container {
-            //.intro__image {}
             .intro__content {
                 .intro__text {
                     font-size: 1rem;
@@ -106,6 +106,10 @@
                     font-size: 1.1rem;
                     text-align: center;
                     padding: 0;
+                }
+                .tree {
+                    align-self: center;
+                    margin: 0;
                 }
             }
         }
