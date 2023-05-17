@@ -13,6 +13,23 @@ Para o desenvolvimento deste site, foram utilizadas as seguintes tecnologias:
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="50" height="50"/>
 </div>
 
+---
+
+<div>
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Portfolio**
+| :label: Tecnologias | HTML, CSS, Javascript, GIT / GitHub, SASS (tecnologias utilizadas)
+| :rocket: URL         | https://yago.bohr.io
+| :fire: Desafio     | https://yago.bohr.io
+
+</div>
+
+<h2>Imagem do Projeto</h2>
+
+![Portfolio V.2](img/imagem-do-projeto.png#vitrinedev)
+
 <h3>Acesso ao Projeto</h3>
 
 Você pode acessar o projeto através do link:
