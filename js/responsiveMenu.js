@@ -5,9 +5,8 @@ export function responsiveMenu () {
     openButton.className = 'open__button';
     openButton.id = 'open';
 
-    for (var i = 0; i < 3; i++) {
+    for (var i = 0; i < 3; i++)
         openButton.innerHTML += '<div class="open__line"></div>';
-    }
 
     const leftPane = document.querySelector('.left');
 
@@ -29,9 +28,8 @@ export function responsiveMenu () {
     closeButton.className = 'close__button';
     closeButton.id = 'close';
 
-    for (var i = 0; i < 2; i++) {
+    for (var i = 0; i < 2; i++)
         closeButton.innerHTML += '<div class="close__line"></div>';
-    }
 
     const rightPane = document.querySelector('.right');
 
@@ -46,7 +44,5 @@ export function responsiveMenu () {
         setTimeout(escondendo, 300);
     }
 
-    function escondendo () {
-        menu.classList.remove('show');
-    }
+    function escondendo () { menu.classList.remove('show'); }
 }

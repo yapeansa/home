@@ -11,8 +11,7 @@ export function formularioDeContato () {
     function appear () {
         if (this.name == 'nome' || this.name == 'e-mail') {
             this.placeholder = `Digite seu ${this.name} aqui...`;
-        }
-        else {
+        } else {
             this.placeholder = `Digite sua ${this.name} aqui...`;
         }
     }
