@@ -419,10 +419,10 @@ html .fade_out, body .fade_out {
   height: 3px;
   background: #9400D3;
   transition: all 0.5s ease;
-  width: 36%;
+  width: 34%;
 }
 .intro .intro__container .intro__content .tree:hover .efeito__linha {
-  width: 82%;
+  width: 95%;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1600px) {

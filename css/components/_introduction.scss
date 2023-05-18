@@ -58,11 +58,11 @@
                 }
                 .efeito__linha {
                     @include efeito-linha;
-                    width: 36%;
+                    width: 34%;
                 }
                 &:hover {
                     .efeito__linha {
-                        width: 82%;
+                        width: 95%;
                     }
                 }
             }
