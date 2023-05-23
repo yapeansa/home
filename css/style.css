@@ -893,9 +893,11 @@ html .fade_out, body .fade_out {
   .contato .contact__container .contact__info {
     gap: 2rem;
     align-items: center;
+    padding: 0;
   }
   .contato .contact__container .contact__info .contact__text {
     font-size: 1.1rem;
+    padding: 0;
   }
   .contato .contact__container .contact__form .formulario__contato {
     width: 100%;
