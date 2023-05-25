@@ -1,14 +1,14 @@
 .cabecalho {
     display: flex;
     height: 100vh;
-    background: $preto url('../assets/bg_2.jpg') center / cover no-repeat fixed;
+    background: $preto url('../assets/bg.jpg') center / cover no-repeat fixed;
     .left {
         flex-basis: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         row-gap: 15vh;
-        background-color: rgba(0, 0, 0, .4);
+        //background-color: rgba(0, 0, 0, .4);
         padding: 0 4rem;
         position: relative;
         .open__button {

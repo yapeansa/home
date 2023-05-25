@@ -145,7 +145,7 @@ html .fade_out, body .fade_out {
 .cabecalho {
   display: flex;
   height: 100vh;
-  background: #000000 url("../assets/bg_2.jpg") center/cover no-repeat fixed;
+  background: #000000 url("../assets/bg.jpg") center/cover no-repeat fixed;
 }
 .cabecalho .left {
   flex-basis: 50%;
@@ -153,7 +153,6 @@ html .fade_out, body .fade_out {
   flex-direction: column;
   justify-content: center;
   row-gap: 15vh;
-  background-color: rgba(0, 0, 0, 0.4);
   padding: 0 4rem;
   position: relative;
 }
