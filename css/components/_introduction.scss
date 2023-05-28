@@ -54,7 +54,6 @@
                     content: '@';
                     font-size: 3rem;
                     color: $roxo;
-                    animation: pisca-pisca 1.6s ease-in-out infinite;
                 }
                 .efeito__linha {
                     @include efeito-linha;
@@ -62,7 +61,7 @@
                 }
                 &:hover {
                     .efeito__linha {
-                        width: 95%;
+                        width: 76%;
                     }
                 }
             }

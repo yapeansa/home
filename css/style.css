@@ -25,17 +25,6 @@
     top: -2.5rem;
   }
 }
-@keyframes pisca-pisca {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -409,7 +398,6 @@ html .fade_out, body .fade_out {
   content: "@";
   font-size: 3rem;
   color: #9400D3;
-  animation: pisca-pisca 1.6s ease-in-out infinite;
 }
 .intro .intro__container .intro__content .tree .efeito__linha {
   position: absolute;
@@ -421,7 +409,7 @@ html .fade_out, body .fade_out {
   width: 34%;
 }
 .intro .intro__container .intro__content .tree:hover .efeito__linha {
-  width: 95%;
+  width: 76%;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
