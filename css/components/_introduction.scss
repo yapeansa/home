@@ -1,9 +1,9 @@
 .intro {
-    padding: 6rem 4rem 6rem 0;
+    padding: 8rem 4rem 8rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 4rem;
     .intro__title {
         font-family: $texto-medium;
         font-size: 3rem;
@@ -14,56 +14,34 @@
             background-color: $preto;
         }
     }
-    .intro__container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-        .image__cont {
-            flex-basis: 40%;
-            display: flex;
-            justify-content: center;
-            .intro__image {
-                max-width: 50%;
-            }
+    .intro__text {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 1.5;
+        padding: 0 10%;
+    }
+    .tree {
+        display: inline-block;
+        font-size: 2rem;
+        align-self: center;
+        text-decoration: none;
+        color: $preto;
+        transition: all .5s ease;
+        padding: .7rem 0;
+        margin-left: 4rem;
+        position: relative;
+        &:before {
+            content: '@';
+            font-size: 3rem;
+            color: $roxo;
         }
-        .intro__content {
-            flex-basis: 60%;
-            display: flex;
-            flex-direction: column;
-            gap: 8vh;
-            align-items: center;
-            justify-content: center;
-            .intro__text {
-                font-size: 1.2rem;
-                text-align: justify;
-                line-height: 1.5;
-                padding: 0 4rem;
-            }
-            .tree {
-                display: inline-block;
-                font-size: 2rem;
-                align-self: self-start;
-                text-decoration: none;
-                color: $preto;
-                transition: all .5s ease;
-                padding: .7rem 0;
-                margin-left: 4rem;
-                position: relative;
-                &:before {
-                    content: '@';
-                    font-size: 3rem;
-                    color: $roxo;
-                }
-                .efeito__linha {
-                    @include efeito-linha;
-                    width: 34%;
-                }
-                &:hover {
-                    .efeito__linha {
-                        width: 76%;
-                    }
-                }
+        .efeito__linha {
+            @include efeito-linha;
+            width: 34%;
+        }
+        &:hover {
+            .efeito__linha {
+                width: 76%;
             }
         }
     }
